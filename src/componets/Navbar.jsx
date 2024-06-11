@@ -18,13 +18,14 @@ export default function Navbar() {
 
 
   return (
-    <nav className=''>
+    <nav>
       <ul
-        className={`${showMenu ? 'flex' : 'hidden'} bg-white w-[329px] h-[305px] top-[106px] absolute left-0 right-0 
-        mx-auto py-[20px] flex-col items-center place-content-around text-Dark-grayish-blue text-lg 
+        className={`${showMenu ? 'flex' : 'hidden'} bg-white absolute left-0 right-0 w-[329px] h-[305px] top-[106px] 
+        mx-auto py-[20px] z-50 flex-col items-center place-content-around text-Dark-grayish-blue text-lg 
         after:content-[""] after:absolute after:top-[-20px] after:right-0 after:border-[12px] after:border-t-transparent 
         after:border-b-white after:border-l-transparent after:border-r-white
         sm:relative sm:flex sm:after:hidden sm:bg-transparent sm:flex-row sm:justify-between sm:top-0 sm:w-[400px] sm:h-[56px]
+        sm:text-White
         `}
       >
         <li className='cursor-pointer'>About</li>
