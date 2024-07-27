@@ -22,7 +22,11 @@ export default {
         'Barlow-600': ['Barlow', 'sans-serif'],
         'Fraunces-700': ['Fraunces-Bold', 'arial'],
         'Fraunces-900': ['Fraunces-Black', 'serif'],
-      }
+      },
+      screens:{
+        'tablet': '700px',
+        'desktop': '1440px',
+      },
     },
   },
   plugins: [],
