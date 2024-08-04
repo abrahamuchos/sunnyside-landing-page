@@ -9,7 +9,7 @@ export default function Testimonials() {
   return (
     <section className='bg-white flex justify-center items-center
       md:h-[60vh]
-      lg:h-[40vh]
+      lg:h-[60vh]
       xl:h-[75vh]
       2xl:h-[45vh]'
     >

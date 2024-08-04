@@ -1,9 +1,10 @@
 import Header from "./componets/Header.jsx";
 import Hero from "./componets/Hero.jsx";
 import Services from "./componets/Services.jsx";
+import Testimonials from "./componets/Testimonials.jsx";
+import Gallery from "./componets/Gallery.jsx";
 
 import './App.css';
-import Testimonials from "./componets/Testimonials.jsx";
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       <Hero/>
       <Services/>
       <Testimonials/>
-      <div className="h-[100px] bg-red-400"></div>
+      <Gallery/>
+      {/*<div className="h-[100px] bg-red-400"></div>*/}
     </div>
   )
 }
