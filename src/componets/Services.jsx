@@ -56,7 +56,6 @@ export default function Services() {
         }}
         />
       </section>
-      <div className="h-[100px] bg-red-400"></div>
     </>
   );
 }
