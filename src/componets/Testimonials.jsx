@@ -7,7 +7,7 @@ import profileTestimonial2 from '../assets/images/image-jennie.jpg';
 export default function Testimonials() {
 
   return (
-    <section className='bg-white flex justify-center items-center
+    <section id='testimonials' className='bg-white flex justify-center items-center
       md:h-[60vh]
       lg:h-[60vh]
       xl:h-[75vh]

@@ -15,7 +15,7 @@ export default function Services() {
 
 
   return (
-    <>
+    <div id='services'>
       <section className='grid sm:grid-cols-2'>
         <Image srcMobile={eggImg} srcDesktop={eggImgDesktop} alt='Image Transform your brand' className='sm:order-2'/>
         <Text
@@ -56,6 +56,6 @@ export default function Services() {
         }}
         />
       </section>
-    </>
+    </div>
   );
 }

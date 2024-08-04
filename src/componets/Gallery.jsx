@@ -13,7 +13,7 @@ import imgSugarDesktop from '../assets/images/desktop/image-gallery-sugarcubes.j
 export default function Gallery() {
 
   return (
-    <section className='grid grid-cols-2
+    <section id='gallery' className='grid grid-cols-2
       md:grid-cols-4'
     >
       <Image srcMobile={imgMilkBottles} srcDesktop={imgMilkBottlesDesktop}/>

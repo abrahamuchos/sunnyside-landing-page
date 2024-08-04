@@ -3,6 +3,7 @@ import Hero from "./componets/Hero.jsx";
 import Services from "./componets/Services.jsx";
 import Testimonials from "./componets/Testimonials.jsx";
 import Gallery from "./componets/Gallery.jsx";
+import Footer from "./componets/Footer.jsx";
 
 import './App.css';
 
@@ -15,7 +16,7 @@ function App() {
       <Services/>
       <Testimonials/>
       <Gallery/>
-      {/*<div className="h-[100px] bg-red-400"></div>*/}
+      <Footer/>
     </div>
   )
 }
